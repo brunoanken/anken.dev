@@ -31,9 +31,9 @@ export default function Home() {
 
         </div>
 
-        <div className="bg-secondary padding text-center">
+        <div className="padding text-center bg-black3 color-yellow2">
 
-          <h2>"Tá, legal, mas o que você sabe fazer? E por que eu confiaria em você?"</h2>
+          <h2 className>"Tá, legal, mas o que você sabe fazer?"</h2>
           <br />
           <p style={{ fontSize: '1.5rem' }}>Se liga:</p>
 
