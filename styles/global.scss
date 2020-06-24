@@ -1,14 +1,20 @@
 :root {
-    --wine: #501F3A;
-    --pink: #CB2D6F;
-    --grey: #CCCCCC;
-    --teal: #14A098;
-    --dark-green: #0F292F;
-    --white: #fff;
-    --black: #000;
+    --white: #FFFFFF;
+    --black: #000000;
+    --purple1: #501F3A;
+    --pink1: #CB2D6F;
+    --grey1: #CCCCCC;
+    --teal1: #14A098;
+    --green1: #0F292F;
 
-    --text-color: var(--grey);
-    --background-color: var(--dark-green);
+    --text-color: var(--white);
+    --background-color: var(--purple1);
+    --secondary-background-color: var(--green1);
+
+    --default-padding: 2rem;
+    --default-padding-desktop: 4rem;
+    --default-margin: 2rem;
+    --default-margin-desktop: 4rem;
 }
 
 html, body {
@@ -23,4 +29,50 @@ html, body {
 h1, h2, h3, a, p, div {
     margin: 0;
     padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin {
+    margin: var(--default-margin);
+
+    @media only screen and (min-width: 1024px) {
+        margin: var(--default-margin-desktop);
+    }
+}
+
+.padding {
+    padding: var(--default-padding);
+
+    @media only screen and (min-width: 1024px) {
+        padding: var(--default-padding-desktop);
+    }
+}
+
+.round-border {
+    border-radius: 50%;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-background-color);
+}
+
+.w {
+    width: 240px;
 }
