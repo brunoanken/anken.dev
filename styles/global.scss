@@ -102,6 +102,10 @@ a {
     background-color: var(--teal1);
 }
 
+.bg-white1 {
+    background-color: var(--white1);
+}
+
 .presentation-container {
     @media only screen and (min-width: 1024px) {
         display: flex;

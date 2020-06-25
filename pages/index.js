@@ -11,6 +11,12 @@ export default function Home() {
       <Head>
         <title>Bruno Anken</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:title" content="Bruno Anken" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://anken.dev/" />
+        <meta property="og:description" content="Sou um desenvolvedor que respira tecnologia e inovação." />
+        <meta property="og:image" content="https://scontent.fcgh9-1.fna.fbcdn.net/v/t1.0-9/104884352_3287815077909945_6267769813415984483_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_eui2=AeF9kXNp2S_5_T4hrUpLoqEMd-qDuY6LmfF36oO5jouZ8bCNgiqJpsUkrteTY-THXKonv53gaefOnUtU5KlzyJ-c&_nc_oc=AQmiiE10jBQinWfDQP-m7CP43Jkca7tt8UTxf-IwNDRGDgsbnF8IiwDSmzpto92MiRNdlry9AL0u-dQOqbUEh0id&_nc_ht=scontent.fcgh9-1.fna&oh=1431aa2fe4c795f4c34fde1d0dafc17b&oe=5F1A5D24" />
       </Head>
 
       <main className="column">
