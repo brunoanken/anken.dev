@@ -7,16 +7,17 @@ import styles from './styles/index.module.scss'
 export default function Home() {
   return (
     <div>
+
       <Head>
         <title>Bruno Anken</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container column">
+      <main className="row column">
 
         <div>
 
-          <div className="container padding">
+          <div className="row padding">
             <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} />
           </div>
 
@@ -60,7 +61,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container column padding text-center" style={{ fontSize: '2rem' }}>
+        <div className="row column padding text-center" style={{ fontSize: '2rem' }}>
           <p>Acho que ficou claro que sou um desenvolvedor, não um designer.</p>
           <br />
           <p>Se quiser enviar alguma dica para que eu consiga melhorar este site é só entrar em contato comigo!</p>
