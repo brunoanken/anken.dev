@@ -51,19 +51,19 @@ export default function Home() {
             <Section imgSrc="/icons/code-white.svg">
               <p>Eu sei escrever código front-end, back-end e mobile!</p>
               <br />
-              <p>O que eu manjo: React, React Native, Vue, Node, Go, DynamoDB, SQL e mais umas paradinhas</p>
+              <p>O que eu manjo: React, React Native, Vue, Node, Go, DynamoDB, SQL e mais umas paradinhas.</p>
             </Section>
 
             <Section imgSrc="/icons/briefcase-white.svg">
               <p>Tenho 2 anos e meio de experiência profissional!</p>
               <br />
-              <p>É um tempo curto mas de imenso aprendizado e dedicação. Até hoje atuei em 2 empresas: <a href="https://www.meuacesso.com.br/">Acesso</a> e <a href="https://www.medpass.com.br/">MedPass</a></p>
+              <p>É um tempo curto mas de imenso aprendizado e dedicação. Até hoje atuei em 2 empresas: <a href="https://www.meuacesso.com.br/">Acesso</a> e <a href="https://www.medpass.com.br/">MedPass</a>.</p>
             </Section>
 
             <Section imgSrc="/icons/user-white.svg">
-              <p>Dê uma olhada no meu LinkedIn.</p>
+              <p>Sou muito comunicativo e gosto de ajudar a mentorar profissionais menos experientes (apesar de minha carreira ainda ser curta).</p>
               <br />
-              <p>Ou veja outros meios de entrar em contato comigo, incluindo minhas redes sociais e meu GitHub!</p>
+              <p>Estou sempre antenado nas novas tecnologias e tendências buscando oportunidades para aplicá-las, quando isto for vantajoso para o projeto/empresa.</p>
             </Section>
 
           </div>
