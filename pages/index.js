@@ -69,12 +69,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="column padding text-center" style={{ fontSize: '2rem' }}>
-          <p>Acho que ficou claro que sou um desenvolvedor, não um designer.</p>
-          <br />
-          <p>Se quiser enviar alguma dica para que eu consiga melhorar este site é só entrar em contato comigo!</p>
-        </div>
-
       </main>
     </div>
   )
