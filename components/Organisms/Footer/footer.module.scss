@@ -2,3 +2,16 @@
     background-color: var(--black3);
     color: var(--pink1);
 }
+
+.social-icons {
+    a {
+        &:not(:last-of-type) {
+            margin-right: 1rem;
+        }
+    }
+
+    img {
+        max-width: 2.5rem;
+        height: auto;
+    }
+}

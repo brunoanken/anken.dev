@@ -34,7 +34,7 @@ export default function Home() {
             </p>
 
             <p className={`${styles['main-text']} text-center padding`}>
-              Atuo com desenvolvimento full-stack mas sou mais íntimo do front-end.
+              Atuo com desenvolvimento full-stack e tenho maior aprofundamento em front-end.
             </p>
           </div>
 
