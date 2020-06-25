@@ -15,20 +15,28 @@ export default function Home() {
 
       <main className="column">
 
-        <div>
+        <div className="presentation-container">
 
-          <div className="row padding">
-            <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} />
+          <div className="presentation-picture-container">
+            <div className="row padding">
+              <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} />
+            </div>
+
+            <h1 className="text-center">
+              Olá, eu sou o Bruno Anken
+            </h1>
           </div>
 
-          <h1 className="text-center">
-            Olá, eu sou o Bruno Anken
-          </h1>
+          <div>
+            <p className={`${styles['main-text']} text-center padding`}>
+              Tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
+              engenheiro de computação por formação e músico por hobby.
+            </p>
 
-          <p className={`${styles['main-text']} text-center padding`}>
-            Tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
-            engenheiro de computação por formação e músico por hobby
-          </p>
+            <p className={`${styles['main-text']} text-center padding`}>
+              Atuo com desenvolvimento full-stack mas sou mais íntimo do front-end.
+            </p>
+          </div>
 
         </div>
 
@@ -43,13 +51,13 @@ export default function Home() {
             <Section imgSrc="/icons/code-white.svg">
               <p>Eu sei escrever código front-end, back-end e mobile!</p>
               <br />
-              <p>O que eu manjo: React, React Native, Vue, Node, Go e mais umas paradinhas</p>
+              <p>O que eu manjo: React, React Native, Vue, Node, Go, DynamoDB, SQL e mais umas paradinhas</p>
             </Section>
 
             <Section imgSrc="/icons/briefcase-white.svg">
               <p>Tenho 2 anos e meio de experiência profissional!</p>
               <br />
-              <p>É um tempo curto mas de imenso aprendizado e dedicação. Até hoje atuei na Acesso e na MedPass</p>
+              <p>É um tempo curto mas de imenso aprendizado e dedicação. Até hoje atuei em 2 empresas: <a href="https://www.meuacesso.com.br/">Acesso</a> e <a href="https://www.medpass.com.br/">MedPass</a></p>
             </Section>
 
             <Section imgSrc="/icons/user-white.svg">

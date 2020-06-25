@@ -3,7 +3,7 @@ import styles from './footer.module.scss'
 const Footer = () => (
     <div className={`${styles['container']} padding text-center`}>
         <p>
-            Feito por Bruno Anken
+            <strong>Direitos autorais © Bruno Anken Moromizato Zaninello</strong>
         </p>
     </div>
 )
