@@ -14,6 +14,11 @@
     }
 }
 
+.hr {
+    border: 1px dashed var(--grey1);
+    width: 100%;
+}
+
 @-moz-keyframes spin {
     from { 
         -moz-transform: rotate(0deg); 

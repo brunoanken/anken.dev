@@ -25,19 +25,19 @@ export default function Home() {
           </h1>
 
           <p className={`${styles['main-text']} text-center padding`}>
-            Tenho 25 anos, moro em São Paulo, sou engenheiro de software por profissão,
+            Tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
             engenheiro de computação por formação e músico por hobby
           </p>
 
         </div>
 
-        <div className="padding text-center bg-black3 color-yellow2">
+        <div className="padding text-center bg-magenta1">
 
-          <h2 className>"Tá, legal, mas o que você sabe fazer?"</h2>
+          <h2>"Tá, legal, mas o que você sabe fazer?"</h2>
           <br />
           <p style={{ fontSize: '1.5rem' }}>Se liga:</p>
 
-          <div className={`${styles['sections-grid']} `}>
+          <div className={styles['sections-grid']}>
 
             <Section imgSrc="/icons/code-white.svg">
               <p>Eu sei escrever código front-end, back-end e mobile!</p>

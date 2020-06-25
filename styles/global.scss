@@ -1,19 +1,21 @@
 :root {
     --white1: #FFFFFF;
+    --white2: #FEFFFF;
+    --white3: #F2F2F2;
 
     --black1: #000000;
     --black2: #0B0C10;
     --black3: #1A1A1D;
-
-    --grey1: #EDEAE5;
-    --grey2: #4E4E50;
     
-    --cyan1: #026670;
+    --grey1: #CCCCCC;
 
-    --mint1: #9FEDD7;
+    --teal1: #14A098;
 
-    --yellow1: #FEF9C7;
-    --yellow2: #FCE181;
+    --green1: #0F292F;
+
+    --magenta1: #501F3A;
+
+    --pink1: #CB2D6F;
 
     --default-padding: 2rem;
     --default-padding-desktop: 4rem;
@@ -26,8 +28,8 @@ html, body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: var(--grey1);
-    color: var(--black3);
+    background-color: var(--white3);
+    color: var(--pink1);
 }
 
 h1, h2, h3, a, p, div {
@@ -73,14 +75,10 @@ img {
     border-radius: 50%;
 }
 
-.color-yellow2 {
-    color: var(--yellow2);
+.color-teal1 {
+    color: var(--teal1);
 }
 
-.color-white1 {
-    color: var(--white1);
-}
-
-.bg-black3 {
-    background-color: var(--black3);
+.bg-magenta1 {
+    background-color: var(--magenta1);
 }
