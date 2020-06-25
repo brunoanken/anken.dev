@@ -1,5 +1,5 @@
 .container {
-    background-color: var(--black3);
+    background-color: var(--black2);
     color: var(--pink1);
 }
 
@@ -13,5 +13,6 @@
     img {
         max-width: 2.5rem;
         height: auto;
+        fill: red;
     }
 }
