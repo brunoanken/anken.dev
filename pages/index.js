@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="row column">
+      <main className="column">
 
         <div>
 
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="row column padding text-center" style={{ fontSize: '2rem' }}>
+        <div className="column padding text-center" style={{ fontSize: '2rem' }}>
           <p>Acho que ficou claro que sou um desenvolvedor, não um designer.</p>
           <br />
           <p>Se quiser enviar alguma dica para que eu consiga melhorar este site é só entrar em contato comigo!</p>
