@@ -53,7 +53,7 @@ export default function Home() {
 
             <Section imgSrc="/icons/monitor-white.svg">
               <p className="color-white1">
-                desenvolvimento front-end
+                <strong>desenvolvimento front-end</strong>
               </p>
               <br />
               <p>
@@ -64,7 +64,7 @@ export default function Home() {
 
             <Section imgSrc="/icons/code-white.svg">
               <p className="color-white1">
-                desenvolvimento back-end
+                <strong>desenvolvimento back-end</strong>
               </p>
               <br />
               <p>
@@ -75,7 +75,7 @@ export default function Home() {
 
             <Section imgSrc="/icons/smartphone-white.svg">
               <p className="color-white1">
-                desenvolvimento mobile
+                <strong>desenvolvimento mobile</strong>
               </p>
               <br />
               <p>
