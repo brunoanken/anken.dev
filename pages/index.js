@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import Section from '../components/Molecules/SectionCard'
+import SectionCard from '../components/Molecules/SectionCard'
 
 import styles from './styles/index.module.scss'
 
@@ -51,26 +51,26 @@ export default function Home() {
 
           <div className={styles['sections-grid']}>
 
-            <Section imgSrc="/icons/monitor-white.svg" title="desenvolvimento front-end">
+            <SectionCard imgSrc="/icons/monitor-white.svg" title="desenvolvimento front-end">
               <p>
                 além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
                 com styled-components e CSS Modules
               </p>
-            </Section>
+            </SectionCard>
 
-            <Section imgSrc="/icons/code-white.svg" title="desenvolvimento back-end">
+            <SectionCard imgSrc="/icons/code-white.svg" title="desenvolvimento back-end">
               <p>
                 sei fazer APIs em NodeJS, Python e Golang e já trabalhei com serverless
                 e microserviços
               </p>
-            </Section>
+            </SectionCard>
 
-            <Section imgSrc="/icons/smartphone-white.svg" title="desenvolvimento mobile">
+            <SectionCard imgSrc="/icons/smartphone-white.svg" title="desenvolvimento mobile">
               <p>
                 sei fazer aplicativos móveis para Android e iOS com React Native e já
                 fiz releases tanto na Play Store quanto na App Store
               </p>
-            </Section>
+            </SectionCard>
 
           </div>
         </div>
