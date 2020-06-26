@@ -24,16 +24,16 @@ export default function Home() {
         <div className={styles['presentation-container']}>
           <div>
             <h1 className="text-center" style={{ fontSize: '3rem' }}>
-              Olá, eu sou o Bruno Anken
+              olá, eu sou o Bruno Anken
             </h1>
 
             <p className={`${styles['main-text']} text-center padding`}>
-              Tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
+              tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
               engenheiro de computação por formação e músico por hobby.
             </p>
 
             <p className={`${styles['main-text']} text-center `}>
-              Atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end.
+              atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end.
             </p>
           </div>
 
@@ -45,28 +45,43 @@ export default function Home() {
 
         <div className="padding text-center bg-magenta1">
 
-          <h2>"Tá, legal, mas o que você sabe fazer?"</h2>
+          <h2 style={{ fontSize: '2rem' }}>o quê posso te oferecer?</h2>
           <br />
-          <p style={{ fontSize: '1.5rem' }}>Se liga:</p>
+          <p style={{ fontSize: '1.5rem' }}>olha só:</p>
 
           <div className={styles['sections-grid']}>
 
+            <Section imgSrc="/icons/monitor-white.svg">
+              <p className="color-white1">
+                desenvolvimento front-end
+              </p>
+              <br />
+              <p>
+                além de HTML e CSS também manjo de React, Vue, SASS e de CSS-in-JS
+                com styled-components e CSS Modules
+              </p>
+            </Section>
+
             <Section imgSrc="/icons/code-white.svg">
-              <p>Eu sei escrever código front-end, back-end e mobile!</p>
+              <p className="color-white1">
+                desenvolvimento back-end
+              </p>
               <br />
-              <p>O que eu manjo: React, React Native, Vue, Node, Go, DynamoDB, SQL e mais umas paradinhas.</p>
+              <p>
+                sei fazer APIs em NodeJS, Python e Golang e já trabalhei com serverless
+                e microserviços
+              </p>
             </Section>
 
-            <Section imgSrc="/icons/briefcase-white.svg">
-              <p>Tenho 2 anos e meio de experiência profissional!</p>
+            <Section imgSrc="/icons/smartphone-white.svg">
+              <p className="color-white1">
+                desenvolvimento mobile
+              </p>
               <br />
-              <p>É um tempo curto mas de imenso aprendizado e dedicação. Até hoje atuei em 2 empresas: <a href="https://www.meuacesso.com.br/">Acesso</a> e <a href="https://www.medpass.com.br/">MedPass</a>.</p>
-            </Section>
-
-            <Section imgSrc="/icons/user-white.svg">
-              <p>Sou muito comunicativo e gosto de ajudar a mentorar profissionais menos experientes (apesar de minha carreira ainda ser curta).</p>
-              <br />
-              <p>Estou sempre antenado nas novas tecnologias e tendências buscando oportunidades para aplicá-las, quando isto for vantajoso para o projeto/empresa.</p>
+              <p>
+                sei fazer aplicativos móveis para Android e iOS com React Native e já
+                fiz releases tanto na Play Store quanto na App Store
+              </p>
             </Section>
 
           </div>
