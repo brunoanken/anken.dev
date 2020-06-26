@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import SectionCard from '../components/Molecules/SectionCard'
+import CompanyCard from '../components/Molecules/CompanyCard'
 
 import styles from './styles/index.module.scss'
 
@@ -21,7 +22,7 @@ export default function Home() {
 
       <main>
 
-        <div className={styles['presentation-container']}>
+        <section className={styles['presentation-container']}>
           <div>
             <h1 className="text-center" style={{ fontSize: '3rem' }}>
               olá, eu sou o Bruno Anken
@@ -29,23 +30,22 @@ export default function Home() {
 
             <p className={`${styles['main-text']} text-center padding`}>
               tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
-              engenheiro de computação por formação e músico por hobby.
+              engenheiro de computação por formação e músico por hobby
             </p>
 
             <p className={`${styles['main-text']} text-center `}>
-              atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end.
+              atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end
             </p>
           </div>
 
           <div className={`padding ${styles['picture-container']}`}>
             <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} />
           </div>
+        </section>
 
-        </div>
+        <section className="padding text-center bg-magenta1">
 
-        <div className="padding text-center bg-magenta1">
-
-          <h2 style={{ fontSize: '2rem' }}>o quê posso te oferecer?</h2>
+          <h2 className="text-2rem">o quê posso te oferecer?</h2>
           <br />
           <p style={{ fontSize: '1.5rem' }}>olha só:</p>
 
@@ -73,7 +73,35 @@ export default function Home() {
             </SectionCard>
 
           </div>
-        </div>
+        </section>
+
+        <section className="text-center padding bg-black2 color-white3">
+
+          <h2 className="text-2rem">onde já trabalhei</h2>
+
+          <div className={styles['company-cards-container']}>
+
+            <div className={styles['company-card-container']}>
+              <CompanyCard companyName='MedPass' companyImageSrc="https://www.medpass.com.br/static/media/logo.5fd7caf0.png" companyWebsiteUrl="https://www.medpass.com.br/">
+                <p>Na MedPass fiz a porra toda Na MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra toda</p>
+              </CompanyCard>
+            </div>
+
+            <div className={styles['company-card-container']}>
+              <CompanyCard companyName='Acesso' companyImageSrc="//www.meuacesso.com.br/wp-content/uploads/2017/12/branding.svg" companyWebsiteUrl="https://www.medpass.com.br/">
+                <p>Na MedPass fiz a porra toda Na MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra toda</p>
+              </CompanyCard>
+            </div>
+
+            <div className={styles['company-card-container']}>
+              <CompanyCard companyName='MedPass' companyImageSrc="https://www.medpass.com.br/static/media/logo.5fd7caf0.png" companyWebsiteUrl="https://www.medpass.com.br/">
+                <p>Na MedPass fiz a porra toda Na MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra toda</p>
+              </CompanyCard>
+            </div>
+
+          </div>
+
+        </section>
 
       </main>
     </div>

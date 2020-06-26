@@ -1,0 +1,22 @@
+.container {
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        max-width: 10rem;
+    }
+}
+
+.description {
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.link {
+    text-align: right;
+}

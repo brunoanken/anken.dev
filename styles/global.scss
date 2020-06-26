@@ -82,6 +82,10 @@ a {
     }
 }
 
+.text-2rem {
+    font-size: 2rem;
+}
+
 .round-border {
     border-radius: 50%;
 }
@@ -92,6 +96,14 @@ a {
 
 .color-white1 {
     color: var(--white1);
+}
+
+.color-white3 {
+    color: var(--white3);
+}
+
+.color-magenta1 {
+    color: var(--magenta1)
 }
 
 .bg-magenta1 {
@@ -108,5 +120,9 @@ a {
 
 .bg-white1 {
     background-color: var(--white1);
+}
+
+.bg-pink1 {
+    background: var(--pink1);
 }
 

@@ -38,6 +38,17 @@
     }
 }
 
+.company-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.company-card-container {
+    max-width: 30rem;
+    padding: 2rem;
+}
+
 @-moz-keyframes spin {
     from { 
         -moz-transform: rotate(0deg); 
