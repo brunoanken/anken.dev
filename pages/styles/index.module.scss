@@ -19,6 +19,25 @@
     width: 100%;
 }
 
+.presentation-container {
+    padding: 1rem 2rem;
+
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+        align-items: center;
+        min-height: 40rem;
+    }
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (min-width: 1024px) {
+        width: 66%;
+    }
+}
+
 @-moz-keyframes spin {
     from { 
         -moz-transform: rotate(0deg); 

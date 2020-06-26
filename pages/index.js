@@ -15,33 +15,30 @@ export default function Home() {
         <meta property="og:title" content="Bruno Anken" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://anken.dev/" />
-        <meta property="og:description" content="Sou um desenvolvedor que respira tecnologia e inovação." />
+        <meta property="og:description" content="Um desenvolvedor apaixonado por tecnologia e inovação" />
         <meta property="og:image" content="https://scontent.fcgh9-1.fna.fbcdn.net/v/t1.0-9/104884352_3287815077909945_6267769813415984483_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_eui2=AeF9kXNp2S_5_T4hrUpLoqEMd-qDuY6LmfF36oO5jouZ8bCNgiqJpsUkrteTY-THXKonv53gaefOnUtU5KlzyJ-c&_nc_oc=AQmiiE10jBQinWfDQP-m7CP43Jkca7tt8UTxf-IwNDRGDgsbnF8IiwDSmzpto92MiRNdlry9AL0u-dQOqbUEh0id&_nc_ht=scontent.fcgh9-1.fna&oh=1431aa2fe4c795f4c34fde1d0dafc17b&oe=5F1A5D24" />
       </Head>
 
-      <main className="column">
+      <main>
 
-        <div className="presentation-container">
-
-          <div className="presentation-picture-container">
-            <div className="row padding">
-              <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} />
-            </div>
-
-            <h1 className="text-center">
+        <div className={styles['presentation-container']}>
+          <div>
+            <h1 className="text-center" style={{ fontSize: '3rem' }}>
               Olá, eu sou o Bruno Anken
             </h1>
-          </div>
 
-          <div>
             <p className={`${styles['main-text']} text-center padding`}>
               Tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
               engenheiro de computação por formação e músico por hobby.
             </p>
 
-            <p className={`${styles['main-text']} text-center padding`}>
-              Atuo com desenvolvimento full-stack e tenho maior aprofundamento em front-end.
+            <p className={`${styles['main-text']} text-center `}>
+              Atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end.
             </p>
+          </div>
+
+          <div className={`padding ${styles['picture-container']}`}>
+            <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} />
           </div>
 
         </div>

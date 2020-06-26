@@ -106,27 +106,3 @@ a {
     background-color: var(--white1);
 }
 
-.presentation-container {
-    @media only screen and (min-width: 1024px) {
-        display: flex;
-        align-items: center;
-        min-height: 40rem;
-    }
-}
-
-.presentation-picture-container {
-    @media only screen and (min-width: 1024px) {
-        background-color: var(--green1);
-        color: var(--teal1);
-        align-self: stretch;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        flex-basis: 75%;
-        padding: var(--default-padding-desktop);
-
-        div {
-            padding: 0;
-        }
-    }
-}
