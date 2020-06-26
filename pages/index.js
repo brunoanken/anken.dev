@@ -57,7 +57,7 @@ export default function Home() {
               </p>
               <br />
               <p>
-                além de HTML e CSS também manjo de React, Vue, SASS e de CSS-in-JS
+                além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
                 com styled-components e CSS Modules
               </p>
             </Section>
