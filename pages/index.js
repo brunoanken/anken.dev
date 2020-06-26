@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import Section from '../components/Molecules/Section'
+import Section from '../components/Molecules/SectionCard'
 
 import styles from './styles/index.module.scss'
 
