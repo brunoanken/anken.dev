@@ -51,33 +51,21 @@ export default function Home() {
 
           <div className={styles['sections-grid']}>
 
-            <Section imgSrc="/icons/monitor-white.svg">
-              <p className="color-white1">
-                <strong>desenvolvimento front-end</strong>
-              </p>
-              <br />
+            <Section imgSrc="/icons/monitor-white.svg" title="desenvolvimento front-end">
               <p>
                 além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
                 com styled-components e CSS Modules
               </p>
             </Section>
 
-            <Section imgSrc="/icons/code-white.svg">
-              <p className="color-white1">
-                <strong>desenvolvimento back-end</strong>
-              </p>
-              <br />
+            <Section imgSrc="/icons/code-white.svg" title="desenvolvimento back-end">
               <p>
                 sei fazer APIs em NodeJS, Python e Golang e já trabalhei com serverless
                 e microserviços
               </p>
             </Section>
 
-            <Section imgSrc="/icons/smartphone-white.svg">
-              <p className="color-white1">
-                <strong>desenvolvimento mobile</strong>
-              </p>
-              <br />
+            <Section imgSrc="/icons/smartphone-white.svg" title="desenvolvimento mobile">
               <p>
                 sei fazer aplicativos móveis para Android e iOS com React Native e já
                 fiz releases tanto na Play Store quanto na App Store
