@@ -26,16 +26,16 @@ export default function Home() {
 
         <section className={styles['presentation-container']}>
           <div>
-            <h1 className="text-center" style={{ fontSize: '3rem' }}>
+            <h1 className="padding" style={{ fontSize: '3rem' }}>
               Olá, eu sou o Bruno Anken
             </h1>
 
-            <p className={`${styles['main-text']} text-center padding`}>
-              Tenho 25 anos, moro em São Paulo, sou engenheiro de software por profissão,
-              engenheiro de computação por formação e músico por hobby.
+            <p className={`${styles['main-text']} padding`}>
+              <strong>Tenho 25 anos, moro em São Paulo, sou engenheiro de software por profissão,
+              engenheiro de computação por formação e músico por hobby.</strong>
             </p>
 
-            <p className={`${styles['main-text']} text-center `}>
+            <p className={`${styles['main-text']} padding `}>
               Atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end.
             </p>
           </div>
@@ -53,26 +53,35 @@ export default function Home() {
 
           <div className={styles['sections-grid']}>
 
-            <SectionCard imgSrc="/icons/monitor-white.svg" title="Desenvolvimento front-end">
-              <p>
-                Além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
-                com styled-components e CSS Modules.
-              </p>
-            </SectionCard>
+            <div className={styles['section-card-container']}>
 
-            <SectionCard imgSrc="/icons/code-white.svg" title="Desenvolvimento back-end">
-              <p>
-                Sei fazer APIs em NodeJS, Python e Golang. Já desenvolvi microserviços e
-                estou acostumado a trabalhar com serverless.
+              <SectionCard imgSrc="/icons/monitor-white.svg" title="Desenvolvimento front-end">
+                <p>
+                  Além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
+                  com styled-components e CSS Modules.
               </p>
-            </SectionCard>
+              </SectionCard>
+            </div>
 
-            <SectionCard imgSrc="/icons/smartphone-white.svg" title="Desenvolvimento mobile">
-              <p>
-                Sei fazer aplicativos móveis para Android e iOS com React Native e já
-                fiz releases tanto na Play Store quanto na App Store.
+            <div className={styles['section-card-container']}>
+
+              <SectionCard imgSrc="/icons/code-white.svg" title="Desenvolvimento back-end">
+                <p>
+                  Sei fazer APIs em NodeJS, Python e Golang. Já desenvolvi microserviços e
+                  estou acostumado a trabalhar com serverless.
               </p>
-            </SectionCard>
+              </SectionCard>
+            </div>
+
+            <div className={styles['section-card-container']}>
+
+              <SectionCard imgSrc="/icons/smartphone-white.svg" title="Desenvolvimento mobile">
+                <p>
+                  Sei fazer aplicativos móveis para Android e iOS com React Native e já
+                  fiz releases tanto na Play Store quanto na App Store.
+              </p>
+              </SectionCard>
+            </div>
 
           </div>
         </section>
@@ -116,7 +125,7 @@ export default function Home() {
 
           <div className={styles['motivational']}>
 
-            <div>
+            <div className={styles['motivational-section']}>
               <p>
                 Gosto mesmo de tecnologia e acredito em seu poder transformador e facilitador.
                 Me mantenho atento a novas ferramentas e tendências e sempre procuro uma brecha para
@@ -128,7 +137,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div>
+            <div className={styles['motivational-section']}>
               <p>
                 Você pode entrar em contato comigo através do e-mail <strong>brunoanken@gmail.com</strong>
               </p>
