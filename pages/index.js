@@ -41,7 +41,7 @@ export default function Home() {
           </div>
 
           <div className={`padding ${styles['picture-container']}`}>
-            <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} onClick={() => console.log('8==D')} />
+            <img src="/images/profile.png" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} onClick={() => console.log('8==D')} />
           </div>
         </section>
 
