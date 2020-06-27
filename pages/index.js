@@ -116,7 +116,7 @@ export default function Home() {
 
           <div className={styles['motivational']}>
 
-            <div className="text-justify">
+            <div>
               <p>
                 Gosto mesmo de tecnologia e acredito em seu poder transformador e facilitador.
                 Estou sempre atento a novas ferramentas e tendências e sempre procuro uma brecha para
@@ -128,7 +128,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-justify column">
+            <div>
               <p>
                 Você pode entrar em contato comigo através do e-mail <strong>brunoanken@gmail.com</strong>
               </p>
