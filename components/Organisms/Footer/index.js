@@ -1,3 +1,5 @@
+import ExternalLink from '../../Atoms/ExternalLink'
+
 import styles from './footer.module.scss'
 
 const Footer = () => (
@@ -7,9 +9,9 @@ const Footer = () => (
         </p>
         <br />
         <div className={styles['social-icons']}>
-            <a href="https://www.linkedin.com/in/brunoanken/"><img src="/icons/linkedin.svg" alt="LinkedIn" /></a>
-            <a href="https://www.instagram.com/brunoanken/"><img src="/icons/instagram.svg" alt="Instagram" /></a>
-            <a href="https://github.com/brunoanken"><img src="/icons/github.svg" alt="Twitter" /></a>
+            <ExternalLink href="https://www.linkedin.com/in/brunoanken/"><img src="/icons/linkedin.svg" alt="LinkedIn" /></ExternalLink>
+            <ExternalLink href="https://www.instagram.com/brunoanken/"><img src="/icons/instagram.svg" alt="Instagram" /></ExternalLink>
+            <ExternalLink href="https://github.com/brunoanken"><img src="/icons/github.svg" alt="Twitter" /></ExternalLink>
         </div>
     </div>
 )
