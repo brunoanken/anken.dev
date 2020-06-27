@@ -51,15 +51,22 @@
 
 .motivational {
     margin-top: 2rem;
+
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     div {
-        flex-grow: 1;
-        flex-basis: 0;
-
         &:not(:last-of-type) {
-            margin-right: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        flex-direction: row;
+
+        div {
+            flex-grow: 1;
+            flex-basis: 0;
         }
     }
 }
