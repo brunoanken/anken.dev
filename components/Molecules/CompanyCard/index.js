@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types'
 
+import ExternalLink from '../../Atoms/ExternalLink'
+
 import styles from './index.module.scss'
 
 const CompanyCard = ({ companyName, companyImageSrc, companyWebsiteUrl, children }) => (
@@ -15,7 +17,7 @@ const CompanyCard = ({ companyName, companyImageSrc, companyWebsiteUrl, children
         </div>
 
         <div className={styles['link']}>
-            <a href={companyWebsiteUrl}>Confira o site da {companyName}</a>
+            <ExternalLink href={companyWebsiteUrl}>Confira o site da {companyName}</ExternalLink>
         </div>
 
     </div>
