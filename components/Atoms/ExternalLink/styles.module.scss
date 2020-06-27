@@ -1,5 +1,6 @@
 .container {
     transition: opacity 0.2s ease-out;
+    text-decoration: underline;
 
     &:hover {
         opacity: 0.8;

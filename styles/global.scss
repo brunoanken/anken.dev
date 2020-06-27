@@ -44,11 +44,7 @@ img {
 
 a {
     color: inherit;
-    transition: opacity 0.2s ease-out;
-
-    &:hover {
-        opacity: 0.8;
-    }
+    text-decoration: none;
 }
 
 .row {
