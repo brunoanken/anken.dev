@@ -2,6 +2,8 @@ import Head from 'next/head'
 
 import SectionCard from '../components/Molecules/SectionCard'
 import CompanyCard from '../components/Molecules/CompanyCard'
+import LinkButtonOutline from '../components/Atoms/LinkButtonOutline'
+import ExternalLink from '../components/Atoms/ExternalLink'
 
 import styles from './styles/index.module.scss'
 
@@ -29,7 +31,7 @@ export default function Home() {
             </h1>
 
             <p className={`${styles['main-text']} text-center padding`}>
-              Tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
+              Tenho 25 anos, moro em São Paulo, sou engenheiro de software por profissão,
               engenheiro de computação por formação e músico por hobby.
             </p>
 
@@ -126,15 +128,19 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="text-justify">
+            <div className="text-justify column">
               <p>
                 Você pode entrar em contato comigo através do e-mail <strong>brunoanken@gmail.com</strong>
               </p>
               <br />
               <p>
-                Se preferir dê uma olhada no meu <a href="https://www.linkedin.com/in/brunoanken/">LinkedIn</a> ou
+                Se preferir dê uma olhada no meu <ExternalLink href="https://www.linkedin.com/in/brunoanken/">LinkedIn</ExternalLink> ou
                 baixe o meu currículo clicando no botão abaixo!
               </p>
+
+              <div style={{ marginTop: '2rem', alignItems: 'center' }} className="column">
+                <LinkButtonOutline download href="/files/brunoanken_cv.pdf"><strong>Baixar CV bonitão</strong></LinkButtonOutline>
+              </div>
             </div>
 
           </div>
