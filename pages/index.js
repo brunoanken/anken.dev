@@ -110,7 +110,34 @@ export default function Home() {
         </section>
 
         <section className="padding text-center">
-          <h2>E aí, curtiu?</h2>
+          <h2 className="text-2rem">E aí, curtiu?</h2>
+
+          <div className={styles['motivational']}>
+
+            <div className="text-justify">
+              <p>
+                Gosto mesmo de tecnologia e acredito em seu poder transformador e facilitador.
+                Estou sempre atento a novas ferramentas e tendências e sempre procuro uma brecha para
+                estudá-las, verificar e validar suas aplicabilidades.
+              </p>
+              <br />
+              <p>
+                No momento estou estudando NextJS (ao fazer este site!), Elixir e GraphQL.
+              </p>
+            </div>
+
+            <div className="text-justify">
+              <p>
+                Você pode entrar em contato comigo através do e-mail <strong>brunoanken@gmail.com</strong>
+              </p>
+              <br />
+              <p>
+                Se preferir dê uma olhada no meu <a href="https://www.linkedin.com/in/brunoanken/">LinkedIn</a> ou
+                baixe o meu currículo clicando no botão abaixo!
+              </p>
+            </div>
+
+          </div>
         </section>
 
       </main>
