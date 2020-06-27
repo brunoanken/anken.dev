@@ -119,7 +119,7 @@ export default function Home() {
             <div>
               <p>
                 Gosto mesmo de tecnologia e acredito em seu poder transformador e facilitador.
-                Estou sempre atento a novas ferramentas e tendências e sempre procuro uma brecha para
+                Me mantenho atento a novas ferramentas e tendências e sempre procuro uma brecha para
                 estudá-las, verificar e validar suas aplicabilidades.
               </p>
               <br />
