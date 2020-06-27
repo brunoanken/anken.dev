@@ -147,7 +147,7 @@ export default function Home() {
                 baixe o meu currículo clicando no botão abaixo!
               </p>
 
-              <div style={{ marginTop: '2rem', alignItems: 'center' }} className="column">
+              <div style={{ marginTop: '2rem', alignItems: 'flex-start' }} className="column">
                 <LinkButtonOutline download href="/files/brunoanken_cv.pdf"><strong>Baixar CV bonitão</strong></LinkButtonOutline>
               </div>
             </div>
