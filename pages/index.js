@@ -92,7 +92,7 @@ export default function Home() {
             </div>
 
             <div className={styles['company-card-container']}>
-              <CompanyCard companyName='Acesso' companyImageSrc="//www.meuacesso.com.br/wp-content/uploads/2017/12/branding.svg" companyWebsiteUrl="https://www.medpass.com.br/">
+              <CompanyCard companyName='Acesso' companyImageSrc="//www.meuacesso.com.br/wp-content/uploads/2017/12/branding.svg" companyWebsiteUrl="https://www.meuacesso.com.br/">
                 <p>Iniciei minha carreira como desenvolvedor participando da adição de novas funcionalidades em um microserviço C# utilizando .NET Core.</p>
                 <br />
                 <p>Posteriormente encabecei as demandas de front-end do squad utilizando React e continuei atuando com foco no front até me desligar da empresa.</p>
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
 
             <div className={styles['company-card-container']} onClick={() => console.log('Edmar')}>
-              <CompanyCard companyName='Unect Jr.' companyImageSrc="/images/unect.png" companyWebsiteUrl="https://www.medpass.com.br/">
+              <CompanyCard companyName='Unect Jr.' companyImageSrc="/images/unect.png" companyWebsiteUrl="https://www.unect.com.br/">
                 <p>Sou co-fundador e atuei como o primeiro presidente, ajudando o time de fundadores a criar o estatuto social e a suprir todas as demandas jurídicas para a correta fundação e operação da empresa júnior.</p>
                 <br />
                 <p>Fui o representante oficial em diversos eventos e internamente ajudei a coordenar a empresa de maneira geral, além de atuar como gerente de projetos em dado momento.</p>
