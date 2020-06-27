@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styles from './index.module.scss'
 
 const CompanyCard = ({ companyName, companyImageSrc, companyWebsiteUrl, children }) => (
-    <div className={styles['container']}>
+    <div>
 
         <div className={styles['presentation']}>
             <h3>{companyName}</h3>
@@ -15,8 +15,9 @@ const CompanyCard = ({ companyName, companyImageSrc, companyWebsiteUrl, children
         </div>
 
         <div className={styles['link']}>
-            <a href={companyWebsiteUrl}>Acesse o site da {companyName}</a>
+            <a href={companyWebsiteUrl}>Confira o site da {companyName}</a>
         </div>
+
     </div>
 )
 

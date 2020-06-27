@@ -25,82 +25,92 @@ export default function Home() {
         <section className={styles['presentation-container']}>
           <div>
             <h1 className="text-center" style={{ fontSize: '3rem' }}>
-              olá, eu sou o Bruno Anken
+              Olá, eu sou o Bruno Anken
             </h1>
 
             <p className={`${styles['main-text']} text-center padding`}>
-              tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
-              engenheiro de computação por formação e músico por hobby
+              Tenho 25 anos, moro em São Paulo, sou engenheiro de software/desenvolvedor por profissão,
+              engenheiro de computação por formação e músico por hobby.
             </p>
 
             <p className={`${styles['main-text']} text-center `}>
-              atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end
+              Atuo com desenvolvimento full-stack e tenho uma intimidade especial com o front-end.
             </p>
           </div>
 
           <div className={`padding ${styles['picture-container']}`}>
-            <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} />
+            <img src="/images/profile.jpg" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} onClick={() => console.log('8==D')} />
           </div>
         </section>
 
         <section className="padding text-center bg-magenta1">
 
-          <h2 className="text-2rem">o quê posso te oferecer?</h2>
+          <h2 className="text-2rem">O quê posso te oferecer?</h2>
           <br />
-          <p style={{ fontSize: '1.5rem' }}>olha só:</p>
+          <p style={{ fontSize: '1.5rem' }}>Olha só:</p>
 
           <div className={styles['sections-grid']}>
 
-            <SectionCard imgSrc="/icons/monitor-white.svg" title="desenvolvimento front-end">
+            <SectionCard imgSrc="/icons/monitor-white.svg" title="Desenvolvimento front-end">
               <p>
-                além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
-                com styled-components e CSS Modules
+                Além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
+                com styled-components e CSS Modules.
               </p>
             </SectionCard>
 
-            <SectionCard imgSrc="/icons/code-white.svg" title="desenvolvimento back-end">
+            <SectionCard imgSrc="/icons/code-white.svg" title="Desenvolvimento back-end">
               <p>
-                sei fazer APIs em NodeJS, Python e Golang e já trabalhei com serverless
-                e microserviços
+                Sei fazer APIs em NodeJS, Python e Golang. Já desenvolvi microserviços e
+                estou acostumado a trabalhar com serverless.
               </p>
             </SectionCard>
 
-            <SectionCard imgSrc="/icons/smartphone-white.svg" title="desenvolvimento mobile">
+            <SectionCard imgSrc="/icons/smartphone-white.svg" title="Desenvolvimento mobile">
               <p>
-                sei fazer aplicativos móveis para Android e iOS com React Native e já
-                fiz releases tanto na Play Store quanto na App Store
+                Sei fazer aplicativos móveis para Android e iOS com React Native e já
+                fiz releases tanto na Play Store quanto na App Store.
               </p>
             </SectionCard>
 
           </div>
         </section>
 
-        <section className="text-center padding bg-black2 color-white3">
+        <section className="text-center padding bg-green1 color-white3">
 
-          <h2 className="text-2rem">onde já trabalhei</h2>
+          <h2 className="text-2rem">Onde já trabalhei</h2>
 
           <div className={styles['company-cards-container']}>
 
             <div className={styles['company-card-container']}>
               <CompanyCard companyName='MedPass' companyImageSrc="https://www.medpass.com.br/static/media/logo.5fd7caf0.png" companyWebsiteUrl="https://www.medpass.com.br/">
-                <p>Na MedPass fiz a porra toda Na MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra toda</p>
+                <p>Criei diversas APIs em NodeJS e principalmente em Golang, além de dar manutenção em várias outras feitas em Python, todas serverless. </p>
+                <br />
+                <p>Também participei ativamente da criação e melhoria do aplicativo móvel usando React Native e desenvolvi diversos front-ends com React e Vue.</p>
               </CompanyCard>
             </div>
 
             <div className={styles['company-card-container']}>
               <CompanyCard companyName='Acesso' companyImageSrc="//www.meuacesso.com.br/wp-content/uploads/2017/12/branding.svg" companyWebsiteUrl="https://www.medpass.com.br/">
-                <p>Na MedPass fiz a porra toda Na MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra toda</p>
+                <p>Iniciei minha carreira como desenvolvedor participando da adição de novas funcionalidades em um microserviço C# utilizando .NET Core.</p>
+                <br />
+                <p>Posteriormente encabecei as demandas de front-end do squad utilizando React e continuei atuando com foco no front até me desligar da empresa.</p>
               </CompanyCard>
             </div>
 
-            <div className={styles['company-card-container']}>
-              <CompanyCard companyName='MedPass' companyImageSrc="https://www.medpass.com.br/static/media/logo.5fd7caf0.png" companyWebsiteUrl="https://www.medpass.com.br/">
-                <p>Na MedPass fiz a porra toda Na MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra todaNa MedPass fiz a porra toda</p>
+            <div className={styles['company-card-container']} onClick={() => console.log('Edmar')}>
+              <CompanyCard companyName='Unect Jr.' companyImageSrc="/images/unect.png" companyWebsiteUrl="https://www.medpass.com.br/">
+                <p>Sou co-fundador e atuei como o primeiro presidente, ajudando o time de fundadores a criar o estatuto social e a suprir todas as demandas jurídicas para a correta fundação e operação da empresa júnior.</p>
+                <br />
+                <p>Fui o representante oficial em diversos eventos e internamente ajudei a coordenar a empresa de maneira geral, além de atuar como gerente de projetos em dado momento.</p>
               </CompanyCard>
             </div>
 
           </div>
 
+        </section>
+
+        <section className="padding text-center">
+          <h2>E aí, curtiu?</h2>
         </section>
 
       </main>
