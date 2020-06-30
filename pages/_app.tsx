@@ -1,9 +1,11 @@
 import Head from 'next/head'
+import { AppProps } from 'next/app'
+
 import Footer from '../components/Organisms/Footer'
 
 import '../styles/global.scss'
 
-const App = ({ Component, pageProps }) => {
+const App = ({ Component, pageProps }: AppProps) => {
     return (
         <>
             <Head>
