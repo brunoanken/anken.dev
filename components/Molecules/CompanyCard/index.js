@@ -9,7 +9,7 @@ const CompanyCard = ({ companyName, companyImageSrc, companyWebsiteUrl, children
 
         <div className={styles['presentation']}>
             <h3>{companyName}</h3>
-            <img src={companyImageSrc} />
+            <img src={companyImageSrc} alt={`Logo da empresa ${companyName}`} />
         </div>
 
         <div className={styles['description']}>
