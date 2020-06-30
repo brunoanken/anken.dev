@@ -19,6 +19,10 @@ O next.js já vem com CSS Modules integrado e acredito que isto combina bastante
 
 Apesar do site estar bem simples e pequeno resolvi adotar de antemão pois acho uma mão na roda, a DX (developer experience) é incrível e não há nenhum problema de performance no ambiente de produção (pois o site é estático).
 
+## TypeScript
+
+Um total exagero usar TypeScript para um projeto deste tamanho mas eu queria estudar e aplicar mais esta tecnologia então aqui estamos.
+
 ## Deploy e hospedagem
 
 A CDN da Vercel está sendo utilizada para a hospedagem do site. A motivação é simples: é gratuito e de integração incrivelmente simples para projetos feitos em next.js.
