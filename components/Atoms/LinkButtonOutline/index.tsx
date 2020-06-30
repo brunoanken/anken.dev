@@ -6,8 +6,10 @@ type Props = {
     download: boolean
 }
 
-const LinkButtonOutline: React.FunctionComponent<Props> = ({ children, href, download = false }) => (
-    <a href={href} download={download} className={styles['container']}>{children}</a>
+const LinkButtonOutline: React.FunctionComponent<Props> = ({
+  children, href, download = false,
+}: Props) => (
+  <a href={href} download={download} className={styles.container}>{children}</a>
 )
 
 export default LinkButtonOutline

@@ -1,5 +1,3 @@
-import PropTypes, { string } from 'prop-types'
-
 import ExternalLink from '../../Atoms/ExternalLink'
 
 import styles from './index.module.scss'
@@ -11,23 +9,28 @@ type Props = {
     children: React.ReactNode
 }
 
-const CompanyCard: React.FunctionComponent<Props> = ({ companyName, companyImageSrc, companyWebsiteUrl, children }) => (
-    <div>
+const CompanyCard: React.FunctionComponent<Props> = ({
+  companyName, companyImageSrc, companyWebsiteUrl, children,
+}: Props) => (
+  <div>
 
-        <div className={styles['presentation']}>
-            <h3>{companyName}</h3>
-            <img src={companyImageSrc} alt={`Logo da empresa ${companyName}`} />
-        </div>
-
-        <div className={styles['description']}>
-            {children}
-        </div>
-
-        <div className={styles['link']}>
-            <ExternalLink href={companyWebsiteUrl}>Confira o site da {companyName}</ExternalLink>
-        </div>
-
+    <div className={styles.presentation}>
+      <h3>{companyName}</h3>
+      <img src={companyImageSrc} alt={`Logo da empresa ${companyName}`} />
     </div>
+
+    <div className={styles.description}>
+      {children}
+    </div>
+
+    <div className={styles.link}>
+      <ExternalLink href={companyWebsiteUrl}>
+        Confira o site da
+        {companyName}
+      </ExternalLink>
+    </div>
+
+  </div>
 )
 
 export default CompanyCard
