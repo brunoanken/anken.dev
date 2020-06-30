@@ -1,30 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# anken.dev
 
-## Getting Started
+Este é o meu site pessoal, ainda bem básico porém funcional. Pretendo adicionar mais
+algumas páginas acerca da minha carreira e habilidades tećnicas e, futuramente, um blog.
 
-First, run the development server:
+Acesse por aqui => https://anken.dev
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Tecnologias
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### next.js
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+O [next.js](https://github.com/vercel/next.js) é muito prático para criar sites estáticos utilizando React, que é a biblioteca front-end que mais domino (e gosto).
 
-## Learn More
+E sempre tive vontade de aprender esta tecnologia então aproveitei a oportunidade para criar meu site utilizando esta maravilha.
 
-To learn more about Next.js, take a look at the following resources:
+### CSS Modules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O next.js já vem com CSS Modules integrado e acredito que isto combina bastante com a filosofia de componentização do React (e do front-end moderno em geral).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Apesar do site estar bem simples e pequeno resolvi adotar de antemão pois acho uma mão na roda, a DX (developer experience) é incrível e não há nenhum problema de performance no ambiente de produção (pois o site é estático).
 
-## Deploy on Vercel
+## Deploy e hospedagem
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A CDN da Vercel está sendo utilizada para a hospedagem do site. A motivação é simples: é gratuito e de integração incrivelmente simples para projetos feitos em next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+O deploy é feito de maneira automática sempre que algo é enviado para a branch master. A integração é feita de maneira automática pelo dashboard da Vercel.
