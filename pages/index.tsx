@@ -155,7 +155,8 @@ export default function Home(): React.ReactElement {
               </p>
               <br />
               <p>
-                No momento estou estudando NextJS (ao fazer este site!), Elixir e GraphQL.
+                No momento estou estudando NextJS (ao fazer este site!),
+                TypeScript (neste site também!) e GraphQL.
               </p>
             </div>
 
