@@ -1,10 +1,17 @@
-import PropTypes from 'prop-types'
+import PropTypes, { string } from 'prop-types'
 
 import ExternalLink from '../../Atoms/ExternalLink'
 
 import styles from './index.module.scss'
 
-const CompanyCard = ({ companyName, companyImageSrc, companyWebsiteUrl, children }) => (
+type Props = {
+    companyName: string,
+    companyImageSrc: string,
+    companyWebsiteUrl: string,
+    children: React.ReactNode
+}
+
+const CompanyCard: React.FunctionComponent<Props> = ({ companyName, companyImageSrc, companyWebsiteUrl, children }) => (
     <div>
 
         <div className={styles['presentation']}>
@@ -22,12 +29,5 @@ const CompanyCard = ({ companyName, companyImageSrc, companyWebsiteUrl, children
 
     </div>
 )
-
-CompanyCard.propTypes = {
-    companyName: PropTypes.string.isRequired,
-    companyImageSrc: PropTypes.string.isRequired,
-    companyWebsiteUrl: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired
-}
 
 export default CompanyCard
