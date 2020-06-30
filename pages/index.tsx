@@ -31,8 +31,10 @@ export default function Home(): React.ReactElement {
             </h1>
 
             <p className={`${styles['main-text']} padding`}>
-              <strong>Tenho 25 anos, moro em São Paulo, sou engenheiro de software por profissão,
-              engenheiro de computação por formação e músico por hobby.</strong>
+              <strong>
+                Tenho 25 anos, moro em São Paulo, sou engenheiro de software por profissão,
+                engenheiro de computação por formação e músico por hobby.
+              </strong>
             </p>
 
             <p className={`${styles['main-text']} padding `}>
@@ -41,7 +43,7 @@ export default function Home(): React.ReactElement {
           </div>
 
           <div className={`padding ${styles['picture-container']}`}>
-            <img src="/images/profile.png" alt="Eu, Bruno Anken" className={`${styles['avatar']} round-border`} onClick={() => console.log('8==D')} />
+            <img src="/images/profile.png" alt="Eu, Bruno Anken" className={`${styles.avatar} round-border`} onClick={() => console.log('8==D')} />
           </div>
         </section>
 
@@ -59,7 +61,7 @@ export default function Home(): React.ReactElement {
                 <p>
                   Além de HTML e CSS também manjo de React, SASS e de CSS-in-JS
                   com styled-components e CSS Modules.
-              </p>
+                </p>
               </SectionCard>
             </div>
 
@@ -69,7 +71,7 @@ export default function Home(): React.ReactElement {
                 <p>
                   Sei fazer APIs em NodeJS, Python e Golang. Já desenvolvi microserviços e
                   estou acostumado a trabalhar com serverless.
-              </p>
+                </p>
               </SectionCard>
             </div>
 
@@ -79,7 +81,7 @@ export default function Home(): React.ReactElement {
                 <p>
                   Sei fazer aplicativos móveis para Android e iOS com React Native e já
                   fiz releases tanto na Play Store quanto na App Store.
-              </p>
+                </p>
               </SectionCard>
             </div>
 
@@ -93,26 +95,46 @@ export default function Home(): React.ReactElement {
           <div className={styles['company-cards-container']}>
 
             <div className={styles['company-card-container']}>
-              <CompanyCard companyName='MedPass' companyImageSrc="https://www.medpass.com.br/static/media/logo.5fd7caf0.png" companyWebsiteUrl="https://www.medpass.com.br/">
-                <p>Criei diversas APIs em NodeJS e principalmente em Golang, além de dar manutenção em várias outras feitas em Python, todas serverless. </p>
+              <CompanyCard companyName="MedPass" companyImageSrc="https://www.medpass.com.br/static/media/logo.5fd7caf0.png" companyWebsiteUrl="https://www.medpass.com.br/">
+                <p>
+                  Criei diversas APIs em NodeJS e principalmente em Golang,
+                  além de dar manutenção em várias outras feitas em Python, todas serverless.
+                </p>
                 <br />
-                <p>Também participei ativamente da criação e melhoria do aplicativo móvel usando React Native e desenvolvi diversos front-ends com React e Vue.</p>
+                <p>
+                  Também participei ativamente da criação e melhoria do aplicativo móvel usando
+                  React Native e desenvolvi diversos front-ends com React e Vue.
+                </p>
               </CompanyCard>
             </div>
 
             <div className={styles['company-card-container']}>
-              <CompanyCard companyName='Acesso' companyImageSrc="//www.meuacesso.com.br/wp-content/uploads/2017/12/branding.svg" companyWebsiteUrl="https://www.meuacesso.com.br/">
-                <p>Iniciei minha carreira como desenvolvedor participando da adição de novas funcionalidades em um microserviço C# utilizando .NET Core.</p>
+              <CompanyCard companyName="Acesso" companyImageSrc="//www.meuacesso.com.br/wp-content/uploads/2017/12/branding.svg" companyWebsiteUrl="https://www.meuacesso.com.br/">
+                <p>
+                  Iniciei minha carreira como desenvolvedor participando da adição
+                  de novas funcionalidades em um microserviço C# utilizando .NET Core.
+                </p>
                 <br />
-                <p>Posteriormente encabecei as demandas de front-end do squad utilizando React e continuei atuando com foco no front até me desligar da empresa.</p>
+                <p>
+                  Posteriormente encabecei as demandas de front-end do squad utilizando React
+                  e continuei atuando com foco no front até me desligar da empresa.
+                </p>
               </CompanyCard>
             </div>
 
             <div className={styles['company-card-container']} onClick={() => console.log('Edmar')}>
-              <CompanyCard companyName='Unect Jr.' companyImageSrc="/images/unect.png" companyWebsiteUrl="https://www.unect.com.br/">
-                <p>Sou co-fundador e atuei como o primeiro presidente, ajudando o time de fundadores a criar o estatuto social e a suprir todas as demandas jurídicas para a correta fundação e operação da empresa júnior.</p>
+              <CompanyCard companyName="Unect Jr." companyImageSrc="/images/unect.png" companyWebsiteUrl="https://www.unect.com.br/">
+                <p>
+                  Sou co-fundador e atuei como o primeiro presidente, ajudando o time de
+                  fundadores a criar o estatuto social e a suprir todas as demandas jurídicas para
+                  a correta fundação e operação da empresa júnior.
+                </p>
                 <br />
-                <p>Fui o representante oficial em diversos eventos e internamente ajudei a coordenar a empresa de maneira geral, além de atuar como gerente de projetos em dado momento.</p>
+                <p>
+                  Fui o representante oficial em diversos eventos e internamente ajudei
+                  a coordenar a empresa de maneira geral, além de atuar como gerente de
+                  projetos em dado momento.
+                </p>
               </CompanyCard>
             </div>
 
@@ -123,7 +145,7 @@ export default function Home(): React.ReactElement {
         <section className="padding text-center">
           <h2 className="text-2rem">E aí, curtiu?</h2>
 
-          <div className={styles['motivational']}>
+          <div className={styles.motivational}>
 
             <div className={styles['motivational-section']}>
               <p>
@@ -139,12 +161,16 @@ export default function Home(): React.ReactElement {
 
             <div className={styles['motivational-section']}>
               <p>
-                Você pode entrar em contato comigo através do e-mail <strong>brunoanken@gmail.com</strong>
+                Você pode entrar em contato comigo através do e-mail
+                <strong>brunoanken@gmail.com</strong>
               </p>
               <br />
               <p>
-                Se preferir dê uma olhada no meu <ExternalLink href="https://www.linkedin.com/in/brunoanken/">LinkedIn</ExternalLink> ou
-                baixe o meu currículo clicando no botão abaixo!
+                Se preferir dê uma olhada no meu
+                {' '}
+                <ExternalLink href="https://www.linkedin.com/in/brunoanken/">LinkedIn</ExternalLink>
+                {' '}
+                ou baixe o meu currículo clicando no botão abaixo!
               </p>
 
               <div style={{ marginTop: '2rem', alignItems: 'flex-start' }} className="column">
