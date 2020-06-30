@@ -2,7 +2,7 @@ import ExternalLink from '../../Atoms/ExternalLink'
 
 import styles from './footer.module.scss'
 
-const Footer = () => (
+const Footer: React.FunctionComponent = () => (
     <div className={`${styles['container']} padding text-center`}>
         <p>
             <strong>Direitos autorais © Bruno Anken Moromizato Zaninello</strong>
