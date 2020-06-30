@@ -4,7 +4,7 @@ import styles from './index.module.scss'
 
 const Section = ({ imgSrc, title, children }) => (
     <div className={styles['section']}>
-        <img src={imgSrc} />
+        <img src={imgSrc} alt='Ícone' />
         <p className="color-white1">
             <strong>{title}</strong>
         </p>
