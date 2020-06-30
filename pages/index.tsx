@@ -7,7 +7,7 @@ import ExternalLink from '../components/Atoms/ExternalLink'
 
 import styles from './styles/index.module.scss'
 
-export default function Home() {
+export default function Home(): React.ReactElement {
   return (
     <div>
 

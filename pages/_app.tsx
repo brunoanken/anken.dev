@@ -1,9 +1,17 @@
 import Head from 'next/head'
+import { AppProps } from 'next/app'
+
 import Footer from '../components/Organisms/Footer'
 
 import '../styles/global.scss'
+import { NextComponentType } from 'next'
 
-const App = ({ Component, pageProps }) => {
+type Props = {
+    Component: NextComponentType,
+    pageProps: object
+}
+
+const App: React.FunctionComponent<Props> = ({ Component, pageProps }: AppProps) => {
     return (
         <>
             <Head>

@@ -1,8 +1,12 @@
-import PropTypes from 'prop-types'
-
 import styles from './index.module.scss'
 
-const Section = ({ imgSrc, title, children }) => (
+type Props = {
+    imgSrc: string,
+    title: string,
+    children: React.ReactNode
+}
+
+const Section: React.FunctionComponent<Props> = ({ imgSrc, title, children }) => (
     <div className={styles['section']}>
         <img src={imgSrc} alt='Ícone' />
         <p className="color-white1">
@@ -12,11 +16,4 @@ const Section = ({ imgSrc, title, children }) => (
         {children}
     </div>
 )
-
-Section.propTypes = {
-    imgSrc: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired,
-    title: PropTypes.string.isRequired
-}
-
 export default Section
