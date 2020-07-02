@@ -1,4 +1,4 @@
-import ExternalLink from '../../Atoms/ExternalLink'
+import ExternalLink from 'components/Atoms/ExternalLink'
 
 import styles from './index.module.scss'
 
