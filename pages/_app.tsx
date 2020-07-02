@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import { AppPropsType } from 'next/dist/next-server/lib/utils'
-import Footer from '../components/Organisms/Footer'
+import Footer from 'components/Organisms/Footer'
 
 import '../styles/global.scss'
 

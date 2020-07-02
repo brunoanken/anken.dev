@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
-import SectionCard from '../components/Molecules/SectionCard'
-import CompanyCard from '../components/Molecules/CompanyCard'
-import LinkButtonOutline from '../components/Atoms/LinkButtonOutline'
-import ExternalLink from '../components/Atoms/ExternalLink'
+import SectionCard from 'components/Molecules/SectionCard'
+import CompanyCard from 'components/Molecules/CompanyCard'
+import LinkButtonOutline from 'components/Atoms/LinkButtonOutline'
+import ExternalLink from 'components/Atoms/ExternalLink'
 
 import styles from './styles/index.module.scss'
 
