@@ -164,6 +164,7 @@ export default function Home(): React.ReactElement {
             <div className={styles['motivational-section']}>
               <p>
                 Você pode entrar em contato comigo através do e-mail
+                {' '}
                 <strong>brunoanken@gmail.com</strong>
               </p>
               <br />
