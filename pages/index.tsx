@@ -47,7 +47,7 @@ export default function Home(): React.ReactElement {
           </div>
         </section>
 
-        <section className="padding text-center bg-magenta1">
+        <section className="padding text-center bg-magenta1 color-white1">
 
           <h2 className="text-2rem">O quê posso te oferecer?</h2>
           <br />
