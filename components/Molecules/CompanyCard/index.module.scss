@@ -1,12 +1,24 @@
 .presentation {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
     img {
-        max-width: auto;
-        max-height: 4rem;
+        margin-top: 2rem;
+        max-width: 75%;
+    }
+
+    @media only screen and (min-width: 576px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            max-height: 4rem;
+            max-width: auto;
+        }
     }
 }
 

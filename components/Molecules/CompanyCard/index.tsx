@@ -16,6 +16,7 @@ const CompanyCard: React.FunctionComponent<Props> = ({
 
     <div className={styles.presentation}>
       <h3>{companyName}</h3>
+
       <img src={companyImageSrc} alt={`Logo da empresa ${companyName}`} />
     </div>
 
