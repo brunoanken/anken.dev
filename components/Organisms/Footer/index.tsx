@@ -3,7 +3,7 @@ import ExternalLink from 'components/Atoms/ExternalLink'
 import styles from './footer.module.scss'
 
 const Footer: React.FunctionComponent = () => (
-  <div className={`${styles.container} padding text-center`}>
+  <div className={`${styles.container} padding text-center color-white3`}>
     <p>
       <strong>Direitos autorais © Bruno Anken Moromizato Zaninello</strong>
     </p>
